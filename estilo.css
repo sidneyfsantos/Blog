@@ -1,0 +1,97 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#cabecalho{
+   background-color: rgb(238, 166, 12);
+   text-align: center;
+   padding: 15px;
+   border-bottom: 3px solid rgb(247, 198, 108);
+}
+
+#titulo{
+   padding: 15px;
+}
+#titulo span{
+   color: white;
+}
+#menus{
+   color: white;
+   padding: 15px;
+}
+#menus a{
+   padding: 20px;
+   text-decoration: none;   
+}
+#menus a:link,a:visited{
+   color: white;
+}
+#menus a:hover{
+   color:rgb(238, 166, 12);
+   background-color: white;
+   border-radius: 3px;
+}
+
+#area-principal{
+   width: 920px;
+   margin: 0 auto;   
+   
+   /*background-color: rgb(238, 166, 12);*/
+}
+
+.postagens{
+   width: 660px;
+   background-color: white;
+   float: left;
+   background-color: rgb(250, 244, 190);
+}
+#lateral{   
+   width: 240px;
+   float:right;
+   background-color: rgb(250, 244, 190);
+   padding: 5px;
+   text-align: justify;
+
+}
+
+
+.postagens img{
+   margin: 10px 0;
+   border-right: 3px solid rgb(242, 243, 238);
+   border-bottom: 3px solid rgb(242, 243, 238);
+
+}
+
+.postagens p{
+   
+   margin-bottom: 15px;
+   text-indent: 20px;
+   text-align: justify;
+}
+
+.postagens h3{
+   margin-top: 15px;
+}
+
+#lateral a {      
+   display: block;
+   margin-top: 20px;
+   padding-bottom: 20px;
+   text-decoration: none;
+   color: blue;
+   text-decoration: underline;   
+}
+h4{
+   text-align: center;
+}
+#rodape h6{
+   padding: 30px;
+   clear: both;
+   text-align: center;
+}
+#lateral p{
+   padding: 10px 0;
+}
