@@ -47,6 +47,7 @@
    background-color: white;
    float: left;
    background-color: rgb(250, 244, 190);
+   margin-top: 20px;
 }
 #lateral{   
    width: 240px;
@@ -54,6 +55,8 @@
    background-color: rgb(250, 244, 190);
    padding: 5px;
    text-align: justify;
+   margin-top: 20px;
+   
 
 }
 
@@ -82,24 +85,17 @@
    padding-bottom: 20px;*/
    text-decoration: none;
    color: blue;
-   text-decoration: underline;   
+   text-decoration: underline; 
+   margin: 10px 0px;  
+   
 }
 h4{
    text-align: center;
-   background-color:rgb(238, 166, 12); ;
+   background-color: #CCC; ;
 }
 #rodape h6{
    padding: 30px;
    clear: both;
    text-align: center;
 }
-#lateral p{
-   margin: 0;
-   padding: 0;
-   
-   background-color: white;
-}
-.l1 a{
-   margin-top: 20px;
-   padding-bottom: 20px;
-}
+
