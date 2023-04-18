@@ -78,14 +78,15 @@
 
 #lateral a {      
    display: block;
-   margin-top: 20px;
-   padding-bottom: 20px;
+   /*margin-top: 20px;
+   padding-bottom: 20px;*/
    text-decoration: none;
    color: blue;
    text-decoration: underline;   
 }
 h4{
    text-align: center;
+   background-color:rgb(238, 166, 12); ;
 }
 #rodape h6{
    padding: 30px;
@@ -93,5 +94,12 @@ h4{
    text-align: center;
 }
 #lateral p{
-   padding: 10px 0;
+   margin: 0;
+   padding: 0;
+   
+   background-color: white;
+}
+.l1 a{
+   margin-top: 20px;
+   padding-bottom: 20px;
 }
